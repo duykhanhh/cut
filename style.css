@@ -1,0 +1,33 @@
+*{
+
+}
+
+.header-top{
+  background: #333;
+  padding: 6px 0px;
+  color: red;
+  font-weight: bold;
+}
+
+.header-top i {
+  color: #fff;
+  background: green;
+  font-size: 13px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.header{
+  background-color: #f8f2be;
+}
+
+.menu{
+  height: 46px;
+  margin-bottom: 20px;
+  background-image: url("asset/menu-bg.png");
+}
+
+.menu ul li{
+  float: left;
+  list-style: none;
+}
