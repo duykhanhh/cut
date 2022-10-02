@@ -21,15 +21,19 @@
   background-color: #f8f2be;
 }
 
-.menu{
+.menu-c{
   height: 46px;
   margin-bottom: 20px;
   background-image: url("asset/menu-bg.png");
 }
 
-.menu ul li{
+.menu-c ul li{
   float: left;
   list-style: none;
+}
+
+.content-body{
+  background-color: #f8f2be;
 }
 
 .hot-product-title{
@@ -52,10 +56,14 @@
 
 .pro-hot-product{
   margin-top: 20px;
+  max-width: 1110px;
+  margin-left: 0px;
 }
 
 .product-item{
   margin-top: 25px;
+  background: #fff;
+  padding-bottom: 15px;
 }
 
 .product-item img{
@@ -93,4 +101,37 @@
 
 .addcart a:hover{
   text-decoration: none;
+}
+
+.adverti-top{
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.adverti-top img{
+  max-width: 1110px;
+}
+
+.adverti-top img:hover{
+  transform: scale(1.1);
+  transition: all .6s;
+}
+
+.selling-product-title{
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #23b5d2;
+  border-radius: 10px 10px 0px 0px;
+  width: 200px;
+  padding: 10px 12px;
+  position: absolute;
+}
+
+.selling-image{
+  margin-left: -15px;
+  margin-top: 25px;
+  height: 340px;
+  width: 112%;
 }
