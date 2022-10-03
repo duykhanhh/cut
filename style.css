@@ -34,6 +34,7 @@
 
 .content-body{
   background-color: #f8f2be;
+  padding-bottom: 30px;
 }
 
 .hot-product-title{
@@ -134,4 +135,27 @@
   margin-top: 25px;
   height: 340px;
   width: 112%;
+}
+
+.footer{
+  background-color: #202020;
+  padding: 40px 0px;
+  color: #fff;
+}
+
+.footer ul li{
+  list-style: none;
+  margin: 0px 0px 15px -35px;
+}
+
+.footer ul li i{
+  margin-right: 5px;
+}
+
+.footer-title{
+  margin-bottom: 25px;
+}
+
+.f_footer-top{
+  border-bottom: 1px solid #2d2d2d;
 }
